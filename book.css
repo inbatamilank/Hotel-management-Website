@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0 , 0.9);
+    position:sticky;
+    left:0px;
+    top: 0px;
+    z-index: 1;
+}
+.top{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+
+}
+.menu-1 li{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.menu-1 li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.menu-1 li a:hover{
+    color: rgb(214, 83, 83);
+}
+.bookroom{
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    background-image:url(images/bookform.webp);
+    background-position: center;
+    background-size: cover;
+     margin-top: 30px;
+  
+}
+
+.bookroom h2{
+    
+        text-align: center;
+        padding: 10px 0;
+}
+.bbookroom
+{
+
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+input[type="text"], select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a2c2c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-shadow:0 0 7px 9px white;} 
+  .bbookroom button{
+    
+        width: 150px;
+        height: 40px;
+        border-radius:  25px;
+        background: rgb(230, 184, 109);
+        color: rgb(94, 92, 92);
+        font-size: 20px;
+        border: 1px solid rgb(240, 232, 234);
+        transition: 0.5s;
+        justify-content: center;
+    }
+    .bbookroom button:hover{
+        background: rgb(93, 183, 113);
+        transform: scale(1.1);
+    
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

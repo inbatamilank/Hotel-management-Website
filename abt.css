@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0 , 0.9);
+    position:sticky;
+    left:0px;
+    top: 0px;
+    z-index: 1;
+}
+.top{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+
+}
+.menu-1 li{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.menu-1 li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.menu-1 li a:hover{
+    color: rgb(214, 83, 83);
+}
+
+.about-header {
+    background-image: url('images/about.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: rgb(55, 14, 14);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+.mart marquee {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(210, 190, 190, 0.15);
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    white-space: nowrap;
+    background-color: rgb(89, 91, 91);
+}
+.about-header h1 {
+    font-size: 48px;
+    padding: 5px;
+    background-color: rgb(229, 225, 221);
+    color: #5a5213;
+}
+
+.about-header p {
+    font-size: 24px;
+    color: #d2bdbd;
+    box-shadow: 0 0 5pX 6px;
+    width: 10%;
+    padding: 5px 6px;
+}
+.about-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(images/aboutsection.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    box-shadow: 0 5px 10px 1px black;
+    padding: 20px;
+    height: 100vh;
+
+
+}
+
+
+.about-section {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: solid;
+}
+
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.about-section ul li  {
+    font-size: 18px;
+    margin-bottom: 10px; 
+    color: #ffffff;
+
+
+}
+.about-section ul li strong{
+    color: #6b3f3f;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.book button{
+    text-decoration:none ;
+    font-size: 12px;
+    transition: 0.6s;
+    box-shadow: #783838;
+    width: 100px;
+    height: 30px;
+    color: #b14f4f;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+    margin: 5px;
+    
+}
+.book button:hover{
+    color: #1d1d1b;
+}
+

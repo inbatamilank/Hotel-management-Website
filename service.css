@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0 , 0.9);
+    position:sticky;
+    left:0px;
+    top: 0px;
+    z-index: 1;
+}
+.top{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+
+}
+.menu-1 li{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.menu-1 li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.menu-1 li a:hover{
+    color: rgb(214, 83, 83);
+}
+
+header {
+    background-color: #c4bcbc;
+    color: #100101;
+    text-align: center;
+    padding: 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+
+.services-header {
+    background: url(images/services.jpg) no-repeat center center/cover;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services-header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.services-header p {
+    font-size: 24px;
+}
+
+.services-list {
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.service-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-item h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ .service button{
+    padding: 8px 20px;
+    width: 200px;
+    height: 50px;
+    color: #b14f4f;
+    
+    border-radius: 0;
+    
+    margin: 25px;
+    
+    
+}
+
+.service button:hover{
+    background: transparent;
+    box-shadow: 0 0 20px 5px #00fffc;
+    color: rgb(10, 10, 9);
+
+}
+

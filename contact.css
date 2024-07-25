@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    list-style: none;
+    text-decoration: none;
+
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0 , 0.9);
+    position:sticky;
+    left:0px;
+    top: 0px;
+    z-index: 1;
+}
+.top{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+
+}
+.menu-1 li{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.menu-1 li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.menu-1 li a:hover{
+    color: rgb(214, 83, 83);
+}
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a2c2c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-shadow:0 0 7px 9px white;
+
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.contact-info {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+.social-links a {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #04AA6D;
+}
+
+.contact-container button{
+    width: 200px;
+    height: 40px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 20px;
+    border: 1px solid crimson;
+    transition: 0.5s;
+}
+.contact-container button:hover{
+    background: crimson;
+    transform: scale(1.1);
+
+}
+
+.map {
+    margin: 30px;
+}
+
+.map iframe {
+    display: block;
+    margin: 0px auto;
+}
+
+.copyright {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+}

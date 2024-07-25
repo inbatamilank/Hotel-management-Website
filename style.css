@@ -1,0 +1,426 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0 , 0.9);
+    position:sticky;
+    left:0px;
+    top: 0px;
+    z-index: 1;
+}
+.top{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+
+}
+.menu-1 li{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.menu-1 li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.menu-1 li a:hover{
+    color: rgb(214, 83, 83);
+}
+
+
+
+.tophead{
+    background-image:url('images/burg.jpg') ;
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-blend-mode: darken;
+}
+.initial{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    color: rgb(243, 235, 235);
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.initial h1{
+    font-size: 66px;
+
+}
+.initial h2{
+    font-size: 40px;
+}
+.initial h3{
+    font-size: 30px;
+}
+.btn{
+    top: 76%;
+    left: 20%;
+    position: absolute;
+    color: rgb(13, 12, 12);
+    line-height: 1.8;
+}
+.btn button{
+    width: 200px;
+    height: 40px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 20px;
+    border: 1px solid crimson;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background: crimson;
+    transform: scale(1.1);
+}
+
+.container{
+    background-color: bisque;
+    display: flex;
+    column-gap: 30px;
+    padding: 30px;
+}
+
+.box-details {
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-image: url(images/our-services.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    box-shadow: 0 5px 10px 1px black;
+    padding: 20px;
+    height: 50vh;
+}
+
+.box-details1 {
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-image: url(images/hotel-room.avif);
+    background-position: center;
+    background-blend-mode: darken;
+    box-shadow: 0 5px 10px 1px black;
+    padding: 20px;
+}
+
+.box-details2 {
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-image: url(images/buffer-images.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    box-shadow: 0 5px 10px 1px black;
+    padding: 20px;
+}
+
+.box h1{
+    color: darkgray;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: blanchedalmond;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn1 button{
+    width: 200px;
+    height: 40px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 10px;
+    border: 1px solid coral;
+    transition: 0.5s;
+    display: block;
+    margin: 0px auto;
+}
+
+.btn1 button:hover{
+    background: crimson;
+    transform: scale(1.1);
+}
+
+.btn2 button{
+    width: 200px;
+    height: 40px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 10px;
+    border: 1px solid coral;
+    transition: 0.5s;
+    display: block;
+    margin: 0px auto;
+}
+
+.btn2 button:hover{
+    background: crimson;
+    transform: scale(1.1);
+}
+
+.btn3 button{
+    width: 200px;
+    height: 40px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 10px;
+    border: 1px solid coral;
+    transition: 0.5s;
+    margin: 0px auto;
+    display: block;
+
+}
+.btn3 button:hover{
+    background: crimson;
+    transform: scale(1.1);
+}
+
+.container2{
+    background-image: url(images/happy-customer.webp);
+    background-size: cover;
+    background-position:center ;
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-blend-mode:lighten;
+    height: 80vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 48%;
+    transform: translate(0%, -50%);
+}
+
+.content h1{
+    text-align: center;
+    font-size: 68px;
+    color: rgb(246, 244, 241);
+    margin-bottom: 20px;
+}
+.content p{
+    padding: 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: rgb(249, 248, 248);
+}
+
+.video {
+    margin: 30px;
+}
+
+.video iframe{
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    height: 100vh;
+}
+
+.form-1{
+    background-color: rgb(245, 243, 241);
+}
+.contact{
+    border: none;
+    border-radius: 25px;
+    width: 500px;
+    height: 400px;
+
+    margin-top: 100px;
+    background-image: linear-gradient(to left,skyblue,deepskyblue);
+    
+
+}
+.contact h2{
+    text-align: center;
+    padding: 10px 0;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+.form button{
+    width: 150px;
+    height: 30px;
+    border-radius:  25px;
+    background: turquoise;
+    color: rgb(15, 14, 14);
+    font-size: 10px;
+    border: 1px solid crimson;
+    transition: 0.5s;
+    margin: 20px;
+
+
+}
+.form button:hover{
+    background: crimson;
+    transform: scale(1.1);
+
+}
+.footer-6{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    width: 100%;
+    height: 30vh;
+    background-image: url(images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0 , 0.7);
+    background-blend-mode: darken;
+
+
+
+}
+.footer-1{
+    color: aliceblue;
+    
+    line-height: 2;
+
+    
+}
+.footer-1 h3{
+    margin: 10px;
+    font-size: 25px;
+    color: deepskyblue;
+    
+}
+.footer-1 li a{
+    color: snow;
+    transition: 0.6s;
+}
+.footer-1 li a:hover{
+    color: coral;
+    
+}
+.footer-2{
+    color: aliceblue;
+    
+    line-height: 2;
+    
+}
+.footer-2 h3{
+    color:aqua;
+}
+.footer-2 li a{
+    color: snow;
+    transition: 0.6s;
+
+}
+.footer-2 li a:hover{
+    color: brown;
+}
+.footer-3 h3{
+    color: rgb(66, 81, 176);
+    font-size: 30px;
+}
+.footer-3 img{
+
+    width: 259px;
+    height: 159px;
+    border-radius: 40%;
+    display: static;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    column-gap: 10px;
+}
+ .initial h1 span{
+     color:crimson;
+}
+.initial h2 span{
+    color: crimson;
+}
+.initial h3 span{
+
+    color: crimson;
+}
+footer {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.bookroom{
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    height: 500px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    margin-top: 0px;
+    background-image: linear-gradient(to left,rgb(169, 196, 207),rgb(64, 68, 70));
+}
+
+.bookroom h2{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.wholeclass {
+    margin-bottom: 30px;
+}
+
+.wholeclass .contact{
+    display: block;
+    margin: 0px auto;
+}
+
+.bbookroom{
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+
+input[type="text"], select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a2c2c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-shadow:0 0 7px 9px white;
+} 
+.bbookroom button{
+
+    width: 150px;
+    height: 40px;
+    border-radius:  25px;
+    background: rgb(230, 184, 109);
+    color: rgb(94, 92, 92);
+    font-size: 20px;
+    border: 1px solid rgb(240, 232, 234);
+    transition: 0.5s;
+    justify-content: center;
+}
+.bbookroom button:hover{
+    background: rgb(93, 183, 113);
+    transform: scale(1.1);
+
+}
+
+.footer-3 {
+    line-height: 2;
+}
+
+.footer-3 ul li i, .footer-3 ul li a {
+    color: aliceblue;
+}
